@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> collage website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7e1; /* Light green background color */
+        }
+
+        header {
+            background-color: #4caf50; /* Dark green header color */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #a5d6a7; /* Medium green navigation bar color */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #4caf50; /* Dark green footer color */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="ads" style="background-color: blue; color: white; padding: 10px;">
+        <marquee behavior="scroll" direction="left">Welcome to Jeeva's collage-Welcome to Jeeva's collage-Welcome to Jeeva's collage-Welcome to Jeeva's collage-</marquee>
+    </div>
+    <header>
+        <h1>Jeeva's Collage</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Hostel</a>
+        <a href="#">Admission</a>
+        <input type="text" placeholder="Search...">
+    </nav>
+
+    <section>
+        <h2>Welcome to Our College Website</h2>
+        <p>This is a brief introduction to our college. Feel free to explore the options in the navigation bar.</p>
+    </section>
+
+    <footer>
+        &copy; 2024 Jeeva's Collage. All Rights Reserved.
+    </footer>
+</body>
+</html>
